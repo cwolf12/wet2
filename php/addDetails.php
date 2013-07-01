@@ -1,12 +1,13 @@
 <?php
-        if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
 
-if (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['foto']) && isset($_POST['bewertung'])) {
-   include 'mysql.php';
-    mysql_query("insert into Details (Titel, Info, Foto, Bewertung) values ('" . $_POST['titel'] . "','" . $_POST['info'] . "','" . $_POST['foto'] . "', '" . $_POST['bewertung'] . "')");
-    mysql_close($con);
-    echo 'Detail hinzugefügt<br>';
-} 
+if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
+
+    if (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['foto']) && isset($_POST['bewertung'])) {
+        include 'mysql.php';
+        mysql_query("insert into Details (Titel, Info, Foto, Bewertung) values ('" . $_POST['titel'] . "','" . $_POST['info'] . "','" . $_POST['foto'] . "', '" . $_POST['bewertung'] . "')");
+        mysql_close($con);
+        echo 'Detail hinzugefügt<br>';
+    }
     echo '<p><form name="addDetalis" action="" method="post">
                 Titel: <input type="text" name="titel"/>
                 Info: <input type="text" name="info"/>
@@ -14,5 +15,5 @@ if (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['foto']) && 
                 Bewertung: <input type="text" name="bewertung"/>
                 <input type="submit" value="speichern"/>
                 </form></p>';
-        }
+}
 ?>
