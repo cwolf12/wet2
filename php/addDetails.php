@@ -6,7 +6,7 @@ if (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['foto']) && 
     mysql_close($con);
     echo 'Detail hinzugefügt<br>';
 } else {
-    echo '<p><form name="addDetalis" action="../php/addDetails.php" method="post">
+    echo '<p><form name="addDetalis" action="" method="post">
                 Titel: <input type="text" name="titel"/>
                 Info: <input type="text" name="info"/>
                 Foto: <input type="text" name="foto"/>

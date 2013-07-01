@@ -1,5 +1,4 @@
 <?php
-
 include 'mysql.php';
 $sql = "select * from Programm";
 $result = mysql_query($sql, $con);
@@ -9,10 +8,12 @@ while ($row = mysql_fetch_row($result)) {
     if (isset($_SESSION['Admin']) && $_SESSION['Admin'] == "true") {
         echo "<a href=php/editProgramm.php?id=$row[0]>;Edit</a>
         <a href=php/delProgramm.php?id=$row[0]>;Delete</a>";
+
     }
     echo '<br>';
            
 
 }
 mysql_close($con);
+
 ?>       

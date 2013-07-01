@@ -1,7 +1,6 @@
 
 <?php
 
-session_start();
 if (isset($_POST['User']) && isset($_POST['Kennwort'])) {
     $con = mysql_connect("localhost", "root", "wet2root");
     mysql_select_db("wet2", $con);

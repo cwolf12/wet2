@@ -23,12 +23,13 @@ and open the template in the editor.
         } elseif (isset($_POST['User']) && isset($_POST['Kennwort'])) { // TODO!!!!!!!
                 include 'php/dologin.php';        
         } else {   // TODO: auslagern
-            echo '<form name="Login" action="php/doLogin.php" method="post">
+            echo '<form name="Login" action="" method="post">
             <p>Benutzer: <input type="text" name="User"/></p>
            <p>Kennwort: <input type="password" name="Kennwort"/></p> 
             <p><input type="submit" value="Abschicken"/>
             </p>
         </form>';
+            include 'php/doLogin.php';
             echo "Noch kein Login?<br>";
             echo '<form name="Register" action="php/register.php" method="post">
             <p>Benutzer: <input type="text" name="User"/></p>

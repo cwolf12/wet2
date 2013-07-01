@@ -11,8 +11,12 @@ and open the template in the editor.
     <body>
         <?php
             session_start();
+            if (isset($_SESSION['programmid']) && isset($_SESSION['Anzahl'])) {
             echo "ProgrammID: " .$_SESSION['programmid']. "<br>";
             echo "Anzahl: " .$_SESSION['Anzahl']."<br>";
+            } else
+                echo "Warenkorb ist leer<br>";
+                
         ?>
     </body>
 </html>

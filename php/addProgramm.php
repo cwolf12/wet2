@@ -7,7 +7,7 @@ if (isset($_POST['datum']) && isset($_POST['uhrzeit']) && isset($_POST['titel'])
     mysql_close($con);
     echo 'Programm hinzugefügt<br>';
 } else {
-    echo '<p><form name="addProgramm" action="php/addProgramm.php" method="post">
+    echo '<p><form name="addProgramm" action="" method="post">
                 Datum: <input type="text" name="datum"/>
                 Uhrzeit: <input type="text" name="uhrzeit"/>
                 Titel: <input type="text" name="titel"/>
