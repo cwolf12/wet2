@@ -6,7 +6,7 @@ if (isset($_POST['datum']) && isset($_POST['uhrzeit']) && isset($_POST['titel'])
     mysql_query("insert into Programm (Datum, Uhrzeit, Titel, Art) values ('" . $_POST['datum'] . "','" . $_POST['uhrzeit'] . "','" . $_POST['titel'] . "', '" . $_POST['art'] . "')");
     mysql_close($con);
     echo 'Programm hinzugefügt<br>';
-} else {
+}
     echo '<p><form name="addProgramm" action="" method="post">
                 Datum: <input type="text" name="datum"/>
                 Uhrzeit: <input type="text" name="uhrzeit"/>
@@ -14,5 +14,5 @@ if (isset($_POST['datum']) && isset($_POST['uhrzeit']) && isset($_POST['titel'])
                 Art: <input type="text" name="art"/>
                 <input type="submit" value="speichern"/>
                 </form></p>';
-}
+
 ?>
