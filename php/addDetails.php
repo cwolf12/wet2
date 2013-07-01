@@ -1,4 +1,5 @@
 <?php
+        if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
 
 if (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['foto']) && isset($_POST['bewertung'])) {
    include 'mysql.php';
@@ -13,5 +14,5 @@ if (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['foto']) && 
                 Bewertung: <input type="text" name="bewertung"/>
                 <input type="submit" value="speichern"/>
                 </form></p>';
-
+        }
 ?>

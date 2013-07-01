@@ -1,5 +1,6 @@
 
 <?php
+        if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
 
 if (isset($_POST['datum']) && isset($_POST['uhrzeit']) && isset($_POST['titel']) && isset($_POST['art'])) {
    include 'mysql.php';
@@ -14,5 +15,5 @@ if (isset($_POST['datum']) && isset($_POST['uhrzeit']) && isset($_POST['titel'])
                 Art: <input type="text" name="art"/>
                 <input type="submit" value="speichern"/>
                 </form></p>';
-
+        }
 ?>

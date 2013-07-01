@@ -2,8 +2,7 @@
 <?php
 
 if (isset($_POST['User']) && isset($_POST['Kennwort'])) {
-    $con = mysql_connect("localhost", "root", "wet2root");
-    mysql_select_db("wet2", $con);
+    include 'mysql.php';
     $sql = "select * from user where user = '" . $_POST['User'] . "' ";
     $result = mysql_query($sql, $con);
     while ($row = mysql_fetch_row($result)) {
