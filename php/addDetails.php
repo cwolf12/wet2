@@ -15,6 +15,3 @@ if (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['foto']) && 
                 </form></p>';
 }
 ?>
-
-
-// Immer alles in die session schreiben?
