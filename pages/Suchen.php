@@ -10,7 +10,13 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "Suchen<br>";
+        echo '<form name="Suchen" action="php/search.php" method="post">
+        Titel <input type="text" name="Titel"/>
+        Datum <input type="text" name="Datum"/>
+        <input type="submit" value="Suchen"/>
+        </form>
+        
+        ';
         ?>
     </body>
 </html>

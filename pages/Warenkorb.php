@@ -10,7 +10,9 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-
+            session_start();
+            echo "ProgrammID: " .$_SESSION['programmid']. "<br>";
+            echo "Anzahl: " .$_SESSION['Anzahl']."<br>";
         ?>
     </body>
 </html>
