@@ -23,4 +23,5 @@ and open the template in the editor.
             echo "Warenkorb ist leer<br>";
         ?>
     </body>
+    
 </html>

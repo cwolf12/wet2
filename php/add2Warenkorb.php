@@ -9,5 +9,6 @@ $_SESSION['programmid'][sizeof($_SESSION['programmid'])] = $_GET['programmid'];
 $_SESSION['Anzahl'][sizeof($_SESSION['Anzahl'])] = $_POST['Anzahl'];
 var_dump($_SESSION);
 echo 'Warenkorb aktualisiert<br>';
+
 }
 ?>
