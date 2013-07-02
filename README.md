@@ -3,9 +3,6 @@ wet2
 
 TODO:
 
-Ü3
-- Programm / Details bearbeiten
-
 Ü4
 - Saalplan 
 
