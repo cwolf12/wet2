@@ -1,6 +1,7 @@
 
 <?php
-
+if (!isset($_SESSION))
+    session_start ();
 if (isset($_SESSION['User']) && isset($_GET['programmid']) && isset($_POST['Anzahl'])) {
     echo "Warenkorb:<br>";
     if (!isset($_SESSION['programmid']))

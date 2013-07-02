@@ -19,11 +19,11 @@ and open the template in the editor.
                 Uhrzeit: <input type="text" name="uhrzeit"/>
                 Titel: <input type="text" name="titel"/>
                 Art: <input type="text" name="art"/>
-                <input type="submit" value="update"/>
-                <input type="submit" value="delete"/>
-                <input type="submit" value="speichern"/>
+                <input type="submit" name="update" value="update"/>
+                <input type="submit" name="delete" value="delete"/>
+                <input type="submit" name ="speichern" value="speichern"/>
                 </form></p>';
-            include 'php/addProgramm.php';
+            include 'php/manageProgramm.php';
             include 'php/showProgramm.php';
             echo '<p>Details bearbeiten:</p>';
             echo '<p><form name="addDetalis" action="" method="post">
@@ -32,11 +32,11 @@ and open the template in the editor.
                 Info: <input type="text" name="info"/>
                 Foto: <input type="text" name="foto"/>
                 Bewertung: <input type="text" name="bewertung"/>
-                <input type="submit" value="update"/>
-                <input type="submit" value="delete"/>
-                <input type="submit" value="speichern"/>
+                <input type="submit" name="update" value="update"/>
+                <input type="submit" name="delete" value="delete"/>
+                <input type="submit" name="speichern" value="speichern"/>
                 </form></p>';
-            include 'php/addDetails.php';
+            include 'php/manageDetails.php';
             include 'php/showDetails.php';
         }
         else

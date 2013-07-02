@@ -10,12 +10,10 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        if (!isset($_SESSION))
-            session_start();
-        include 'Header.php';
-        include 'Menu.php';
-        include '../php/showDetails.php';
-        include 'Footer.php';
+            include 'Header.php';
+            include 'Menu.php';
+            include '../php/showDetails.php';
+            include 'Footer.php';
         ?>
     </body>
 </html>
