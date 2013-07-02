@@ -8,7 +8,7 @@ if (isset($_GET['id']) && isset($_SESSION['Admin']) && $_SESSION['Admin'] === "t
     mysql_query('delete from Details where ID = "' . $_GET['id'] . '" ');
     mysql_close($con);
     echo 'Details gelöscht!<br>';
-    include '../pages/Details.php';
+    echo '<a href=/wet2/index.php?page=Programm.php>zurück</a>';
 
 }
 ?>
