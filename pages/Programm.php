@@ -13,7 +13,7 @@ and open the template in the editor.
         session_start();
         if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
             echo '<p>Programm bearbeiten:</p>';
-            echo '<p><form name="addProgramm" action="" method="post">
+            echo '<p><form name="manageProgramm" action="" method="post">
                 ID: <input type="text" name="id"/>
                 Datum: <input type="text" name="datum"/>
                 Uhrzeit: <input type="text" name="uhrzeit"/>
@@ -26,7 +26,7 @@ and open the template in the editor.
             include 'php/manageProgramm.php';
             include 'php/showProgramm.php';
             echo '<p>Details bearbeiten:</p>';
-            echo '<p><form name="addDetalis" action="" method="post">
+            echo '<p><form name="manageDetails" action="" method="post">
                 ID: <input type="text" name="id"/>
                 Titel: <input type="text" name="titel"/>
                 Info: <input type="text" name="info"/>
