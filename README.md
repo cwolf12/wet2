@@ -3,8 +3,9 @@ wet2
 
 TODO:
 
+
 Ü3
-- Programm / Details bearbeiten
+- file upload
 
 Ü4
 - Saalplan 
@@ -12,5 +13,5 @@ TODO:
 Ü5
 - Security
 
-Sonstiges:
+Sonstiges
 - HTML / CSS
