@@ -20,7 +20,7 @@ while ($row = mysql_fetch_row($result)) {
                 <input type="submit" value="In den Warenkorb"/>
                 </form></p>';
     if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
-        echo '<p><a href=../php/editDetails.php?id=' . $row[0] . '>;Edit</a>
+        echo '<p><a href=../php/addDetails.php?id=' . $row[0] . '>;Edit</a>
         <a href=../php/delDetails.php?id=' . $row[0] . '>;Delete</a>
             
             ';

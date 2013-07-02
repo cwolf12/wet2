@@ -9,7 +9,7 @@ if (isset($_POST['User']) && isset($_POST['Kennwort'])) {
         if ($_POST["User"] == $row[1] && $_POST["Kennwort"] == $row[2]) {
             $_SESSION["User"] = $_POST["User"];
             if ($row[4] === "1")
-                $_SESSION["Admin"] = "true";
+                $_SESSION['Admin'] = "true";
             echo 'Anmeldung erfolgreich!<br>';
         }
         else
