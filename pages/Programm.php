@@ -27,7 +27,6 @@
                 ID (update / delete): <input type="text" name="id"/>
                 Titel: <input type="text" name="titel"/>
                 Info: <input type="text" name="info"/>
-                Foto: <input type="text" name="foto"/>
                 Bewertung: <input type="text" name="bewertung"/>
                 <input type="submit" name="update" value="update"/>
                 <input type="submit" name="delete" value="delete"/>
