@@ -24,7 +24,7 @@
             include 'php/showProgramm.php';
             echo '<p>Details bearbeiten:</p>';
             echo '<p><form name="manageDetails" action="" method="post">
-                ID (update / delete): <input type="text" name="id"/>
+                ID (update / delete): <input type="text" name="detailsid"/>
                 Titel: <input type="text" name="titel"/>
                 Info: <input type="text" name="info"/>
                 Bewertung: <input type="text" name="bewertung"/>
