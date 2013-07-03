@@ -25,8 +25,8 @@ if (isset($_POST['Logout'])) {
         else
             echo 'Anmeldung nicht erfolgreich!<br>';
     }
-} elseif (isset($_POST['anlegen']) && isset($_POST['User']) && isset($_POST['Kennwort'])
-        && isset($_POST['Kennwortbestätigung']) && isset($_POST['email'])) {
+} elseif (isset($_POST['anlegen']) && isset($_POST['User']) && isset($_POST['Kennwort']) &&
+        isset($_POST['Kennwortbestätigung']) && isset($_POST['email'])) {
     stripslashes(strip_tags(escapeshellcmd($_POST['User'])));
     stripslashes(strip_tags(escapeshellcmd($_POST['Kennwort'])));
     stripslashes(strip_tags(escapeshellcmd($_POST['Kennwortbestätigung'])));

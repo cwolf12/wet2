@@ -20,7 +20,7 @@ while ($row = mysql_fetch_row($result)) {
                 <option value="4">4</option>
                 <input type="submit" value="In den Warenkorb"/>
                 </form>';
-            include 'add2Warenkorb.php';
+        include 'add2Warenkorb.php';
     }
     if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
         echo '<form name="upload" action="" enctype="multipart/form-data" method="post">

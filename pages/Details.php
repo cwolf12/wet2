@@ -1,7 +1,3 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,10 +6,10 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            include 'Header.php';
-            include 'Menu.php';
-            include '../php/showDetails.php';
-            include 'Footer.php';
+        include 'Header.php';
+        include 'Menu.php';
+        include '../php/showDetails.php';
+        include 'Footer.php';
         ?>
     </body>
 </html>

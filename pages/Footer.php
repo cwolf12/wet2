@@ -1,7 +1,3 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,7 +6,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            echo "Footer<br>";
+        echo "Footer<br>";
         ?>
     </body>
 </html>

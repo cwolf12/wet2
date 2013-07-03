@@ -6,9 +6,7 @@ if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
     if (isset($_POST['delete']) && isset($_POST['id'])) {
         stripslashes(strip_tags(escapeshellcmd($_GET['id'])));
         $sql = "delete from Details where ID = '" . $_POST['id'] . "'";
-    }
-    elseif (isset($_POST['titel']) && isset($_POST['info'])
-            && isset($_POST['bewertung'])) {
+    } elseif (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['bewertung'])) {
         stripslashes(strip_tags(escapeshellcmd($_POST['titel'])));
         stripslashes(strip_tags(escapeshellcmd($_POST['info'])));
         stripslashes(strip_tags(escapeshellcmd($_POST['bewertung'])));
@@ -17,8 +15,7 @@ if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
             $sql = "update Details set Titel = '" . $_POST['titel'] . "',
                     Info='" . $_POST['info'] . "', Bewertung= '" . $_POST['bewertung'] . "'
                     where ID = '" . $_POST['id'] . "'";
-        }
-        elseif (isset($_POST['speichern'])) {
+        } elseif (isset($_POST['speichern'])) {
             $sql = "insert into Details (Titel, Info, Bewertung) values 
                 ('" . $_POST['titel'] . "','" . $_POST['info'] . "', '" . $_POST['bewertung'] . "')";
         }
