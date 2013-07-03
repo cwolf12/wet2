@@ -14,7 +14,7 @@ and open the template in the editor.
         if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
             echo '<p>Programm bearbeiten:</p>';
             echo '<p><form name="manageProgramm" action="" method="post">
-                ID: <input type="text" name="id"/>
+                ID (update / delete): <input type="text" name="id"/>
                 Datum: <input type="text" name="datum"/>
                 Uhrzeit: <input type="text" name="uhrzeit"/>
                 Titel: <input type="text" name="titel"/>
@@ -27,7 +27,7 @@ and open the template in the editor.
             include 'php/showProgramm.php';
             echo '<p>Details bearbeiten:</p>';
             echo '<p><form name="manageDetails" action="" method="post">
-                ID: <input type="text" name="id"/>
+                ID (update / delete): <input type="text" name="id"/>
                 Titel: <input type="text" name="titel"/>
                 Info: <input type="text" name="info"/>
                 Foto: <input type="text" name="foto"/>
