@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Datenbank: `wet2`
 --
-CREATE DATABASE IF NOT EXISTS `wet2` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE IF NOT EXISTS `wet2` DEFAULT CHARACTER SET latin1 COLLATE latin1_general_ci;
 USE `wet2`;
 
 -- --------------------------------------------------------
