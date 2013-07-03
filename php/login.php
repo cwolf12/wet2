@@ -10,8 +10,8 @@ if (isset($_POST['Logout'])) {
             <input type="submit" value="Abmelden" name="Logout"/>
             </form>';
 } elseif (isset($_POST['login']) && isset($_POST['User']) && isset($_POST['Kennwort'])) {
-    stripslashes(strip_tags(escapeshellcmd($_POST['User'])));
-    stripslashes(strip_tags(escapeshellcmd($_POST['Kennwort'])));
+    $_POST['User'] = stripslashes(strip_tags(escapeshellcmd($_POST['User'])));
+    $_POST['Kennwort'] = stripslashes(strip_tags(escapeshellcmd($_POST['Kennwort'])));
     include 'mysql.php';
     $sql = "select * from user where user = '" . $_POST['User'] . "' ";
     $result = mysql_query($sql, $con);
@@ -27,10 +27,10 @@ if (isset($_POST['Logout'])) {
     }
 } elseif (isset($_POST['anlegen']) && isset($_POST['User']) && isset($_POST['Kennwort']) &&
         isset($_POST['Kennwortbestätigung']) && isset($_POST['email'])) {
-    stripslashes(strip_tags(escapeshellcmd($_POST['User'])));
-    stripslashes(strip_tags(escapeshellcmd($_POST['Kennwort'])));
-    stripslashes(strip_tags(escapeshellcmd($_POST['Kennwortbestätigung'])));
-    stripslashes(strip_tags(escapeshellcmd($_POST['email'])));
+    $_POST['User'] = stripslashes(strip_tags(escapeshellcmd($_POST['User'])));
+    $_POST['Kennwort'] = stripslashes(strip_tags(escapeshellcmd($_POST['Kennwort'])));
+    $_POST['Kennwortbestätigung'] = stripslashes(strip_tags(escapeshellcmd($_POST['Kennwortbestätigung'])));
+    $_POST['email'] = stripslashes(strip_tags(escapeshellcmd($_POST['email'])));
     if ($_POST['Kennwort'] === $_POST['Kennwortbestätigung']) {
         include 'mysql.php';
         //TODO: Überprüfen ob user bereits exisitert!

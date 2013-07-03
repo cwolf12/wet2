@@ -8,11 +8,11 @@
         <?php
         if (isset($_POST['Name']) && isset($_POST['Alter']) && isset($_POST['Thema']) &&
                 isset($_POST['email']) && isset($_POST['Anfragetext'])) {
-            stripslashes(strip_tags(escapeshellcmd($_POST['Name'])));
-            stripslashes(strip_tags(escapeshellcmd($_POST['Alter'])));
-            stripslashes(strip_tags(escapeshellcmd($_POST['Thema'])));
-            stripslashes(strip_tags(escapeshellcmd($_POST['email'])));
-            stripslashes(strip_tags(escapeshellcmd($_POST['Anfragetext'])));
+            $_POST['Name'] = stripslashes(strip_tags(escapeshellcmd($_POST['Name'])));
+            $_POST['Alter'] = stripslashes(strip_tags(escapeshellcmd($_POST['Alter'])));
+            $_POST['Thema'] = stripslashes(strip_tags(escapeshellcmd($_POST['Thema'])));
+            $_POST['email'] = stripslashes(strip_tags(escapeshellcmd($_POST['email'])));
+            $_POST['Anfragetext'] = stripslashes(strip_tags(escapeshellcmd($_POST['Anfragetext'])));
             echo "Name: " . $_POST['Name'] . "<br>";
             echo "Alter: " . $_POST['Alter'] . "<br>";
             echo "Thema: " . $_POST['Thema'] . "<br>";

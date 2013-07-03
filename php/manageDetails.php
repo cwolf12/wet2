@@ -4,14 +4,14 @@ if (!isset($_SESSION))
     session_start();
 if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
     if (isset($_POST['delete']) && isset($_POST['id'])) {
-        stripslashes(strip_tags(escapeshellcmd($_GET['id'])));
+        $_POST['id'] = stripslashes(strip_tags(escapeshellcmd($_GET['id'])));
         $sql = "delete from Details where ID = '" . $_POST['id'] . "'";
     } elseif (isset($_POST['titel']) && isset($_POST['info']) && isset($_POST['bewertung'])) {
-        stripslashes(strip_tags(escapeshellcmd($_POST['titel'])));
-        stripslashes(strip_tags(escapeshellcmd($_POST['info'])));
-        stripslashes(strip_tags(escapeshellcmd($_POST['bewertung'])));
+        $_POST['titel'] = stripslashes(strip_tags(escapeshellcmd($_POST['titel'])));
+        $_POST['info'] = stripslashes(strip_tags(escapeshellcmd($_POST['info'])));
+        $_POST['bewertung'] = stripslashes(strip_tags(escapeshellcmd($_POST['bewertung'])));
         if (isset($_POST['update']) && isset($_POST['id'])) {
-            stripslashes(strip_tags(escapeshellcmd($_POST['id'])));
+            $_POST['id'] = stripslashes(strip_tags(escapeshellcmd($_POST['id'])));
             $sql = "update Details set Titel = '" . $_POST['titel'] . "',
                     Info='" . $_POST['info'] . "', Bewertung= '" . $_POST['bewertung'] . "'
                     where ID = '" . $_POST['id'] . "'";

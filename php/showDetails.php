@@ -2,7 +2,7 @@
 
 include 'mysql.php';
 if (isset($_GET['title'])) {
-    stripslashes(strip_tags(escapeshellcmd($_GET['title'])));
+    $_POST['title']=stripslashes(strip_tags(escapeshellcmd($_GET['title'])));
     $sql = "select * from Details where Titel ='" . $_GET['title'] . "'";
 }
 else
