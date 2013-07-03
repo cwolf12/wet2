@@ -3,6 +3,8 @@
 if (!isset($_SESSION))
     session_start ();
 if (isset($_SESSION['User']) && isset($_GET['programmid']) && isset($_POST['Anzahl'])) {
+    stripslashes(strip_tags(escapeshellcmd($_GET['programmid'])));
+    stripslashes(strip_tags(escapeshellcmd($_POST['Anzahl'])));
     echo "Warenkorb:<br>";
     if (!isset($_SESSION['programmid']))
         $_SESSION['programmid'] = array();;
