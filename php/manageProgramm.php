@@ -24,7 +24,6 @@ if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
     }
     else
         echo 'Bitte füllen Sie alle Felder aus!';
-    }
 }
 else {
     echo 'Sie benötigen Admin-Rechte!';
