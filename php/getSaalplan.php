@@ -1,9 +1,26 @@
 <?php
-echo " das funzt schonmal";
 $xmlDoc = simplexml_load_file("seats.xml");
 
+echo "<br></br>";
+echo "SCREEEEEEEEEEEEEEEEEEEEEEEEEEEEN";
 
-var_dump($xmlDoc);
+foreach($xmlDoc->vorstellung->reihe as $row)
+{
+    echo "<br></br>";
+    for ($i=0; $i<10; $i++)
+    {
+        if($row->sitz[$i]->belegt == "NEIN")
+        {
+            $sitz=$row->sitz[$i]+1;
+            echo "<div onClick=\"book($sitz)\" class=\"seatvacant\"></div>";
+        }
+        else
+        {
+            echo "<div class=\"seatoccu\"></div>";
+        }
+    }
+    
+}
 /*$x=$xmlDoc->getElementByTagName('reihe');
 for ($i=0; $i<=$x->length-1; $i++)
 {

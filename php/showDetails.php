@@ -19,7 +19,9 @@ while ($row = mysql_fetch_row($result)) {
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <input type="submit" value="In den Warenkorb"/>
+                
                 </form>';
+        include 'Saalplan.php';
         include 'add2Warenkorb.php';
     }
     if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {

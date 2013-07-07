@@ -6,324 +6,326 @@ and open the template in the editor.
 
 
 <saalplan>
+    <vorstellung id="01">
     <reihe id="01">
         <sitz id="01">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>JA</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="02">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="03">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>JA</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>JA</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="04">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>JA</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="05">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="06">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>JA</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="07">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="08">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="09">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
     <reihe id="10">
-        <sitz id="01">
-            <belegt value="false"></belegt>
+         <sitz id="01">
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="02">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="03">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="04">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="05">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="06">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="07">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="08">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="09">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
         <sitz id="10">
-            <belegt value="false"></belegt>
+            <belegt>NEIN</belegt>
         </sitz>
     </reihe>
+    </vorstellung>
 </saalplan>
