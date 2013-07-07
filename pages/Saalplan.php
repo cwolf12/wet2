@@ -43,7 +43,7 @@
                 }
                
                 xmlhttp.onreadystatechange = doItNow;
-                xmlhttp.open("GET","/php/getSaalplan.php");
+                xmlhttp.open("GET","../php/getSaalplan.php");
                 xmlhttp.send();
             }
             function doItNow()

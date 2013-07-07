@@ -21,7 +21,6 @@ while ($row = mysql_fetch_row($result)) {
                 <input type="submit" value="In den Warenkorb"/>
                 
                 </form>';
-        include 'Saalplan.php';
         include 'add2Warenkorb.php';
     }
     if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true" && isset($_GET['title'])) {
@@ -31,7 +30,10 @@ while ($row = mysql_fetch_row($result)) {
         </form>';
         include 'upload.php';
     }
-    echo "<br>";
+    echo '<br>';
+    if (!isset($_SESSION['Admin']))
+            include '../pages/Saalplan.php';
+
 }
 mysql_close($con);
 ?>

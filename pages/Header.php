@@ -4,7 +4,9 @@
 	
             </div>
             <div id="navright">
-		<?php include 'pages/Menu.php'; ?>
+		<?php 
+                include 'pages/Menu.php'; 
+                ?>
             </div>
 
     

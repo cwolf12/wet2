@@ -2,7 +2,7 @@
 $xmlDoc = simplexml_load_file("seats.xml");
 
 echo "<br></br>";
-echo "SCREEEEEEEEEEEEEEEEEEEEEEEEEEEEN";
+//echo "SCREEEEEEEEEEEEEEEEEEEEEEEEEEEEN";
 
 foreach($xmlDoc->vorstellung->reihe as $row)
 {
