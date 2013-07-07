@@ -1,11 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-    </head>
-    <body>
         <?php
         $menu = array("Home", "Programm", "Suchen", "Kontakt", "Login", "Warenkorb");
         echo "<ul>";
@@ -14,5 +7,4 @@
         }
         echo "</ul><br>";
         ?>
-    </body>
-</html>
+  

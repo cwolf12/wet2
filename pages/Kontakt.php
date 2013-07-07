@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-    </head>
-    <body>
+
         <?php
         if (isset($_POST['Name']) && isset($_POST['Alter']) && isset($_POST['Thema']) &&
                 isset($_POST['email']) && isset($_POST['Anfragetext'])) {
@@ -42,5 +36,4 @@
         </form>';
         }
         ?>
-    </body>
-</html>
+    

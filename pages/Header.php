@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        echo "Header<br>";
-        ?>
-    </body>
-</html>
+
+        <div id="header">
+            <div id="topbanner">
+	
+            </div>
+            <div id="navright">
+		<?php include 'pages/Menu.php'; ?>
+            </div>
+
+    

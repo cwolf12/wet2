@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        echo "Footer<br>";
-        ?>
-    </body>
-</html>
+
+        <p>&copy;Copyright Christof Wolf, Gernot Zechmeister, Bojan Dujic, Marco Vitula</p>
+    

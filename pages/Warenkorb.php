@@ -1,11 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-    </head>
-    <body>
         <?php
         session_start();
         if (isset($_SESSION['programmid']) && isset($_SESSION['Anzahl'])) {
@@ -19,5 +12,4 @@
         else
             echo "Warenkorb ist leer<br>";
         ?>
-    </body>
-</html>
+    

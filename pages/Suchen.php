@@ -1,11 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
-    </head>
-    <body>
         <?php
         echo '<form name="Suchen" action="" method="post">
         Titel <input type="text" name="Titel"/>
@@ -16,5 +9,4 @@
         ';
         include 'php/search.php';
         ?>
-    </body>
-</html>
+   

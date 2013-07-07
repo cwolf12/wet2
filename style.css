@@ -1,0 +1,82 @@
+
+div#header {
+	width:780px;
+	margin:auto;
+	overflow:hidden;
+}
+div#topbanner {
+	background:url(http://www.pressestelle.tu-berlin.de/fileadmin/a70100710/Fotos/TU_intern/2008/April/05_3D-Kino.jpg) no-repeat;
+	background-position:right -30px;
+	background-size:780px;
+	height:250px;
+	width:580px;
+	float:left;
+}
+div#navright {
+	background-color:black;
+	width:200px;
+	height:250px;
+	float:left;
+}
+div#navigation {
+	clear:both;
+	overflow:hidden;
+}
+ul.navi {
+	margin:0px;
+	padding:0px;
+}
+ul.navi li {
+	list-style-type: none;
+}
+ul#main-nav li {
+	float:left;
+	border:1px solid #333;
+	width:128px;
+	font-size:16px;
+	/*text-align: center;*/
+}
+
+
+div#content, div#footer {
+	width:760px;
+	margin:auto;
+	border:1px solid grey;
+	overflow:hidden;
+	padding:10px;
+}
+
+ul#navright-points {
+	color:white;
+	text-align: right;
+}
+
+div#navright ul li {
+
+
+background-color: white;
+border: 1px solid #CCCCCC;
+color: black;
+height: 33px;
+list-style-type: none;
+padding-left: 50px;
+padding-top: 7px;
+position: relative;
+right: 40px;
+top: -16px;
+vertical-align: middle;
+width: 148px;
+
+}
+
+div#navright ul li a{
+    text-decoration: none;
+}
+
+div#navright ul li a:hover{
+    color:blue;
+}
+
+div#navright ul li:hover{
+    background-color: #aaa;
+}

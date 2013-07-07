@@ -2,12 +2,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+        <title>Unsere Kinoseite</title>
     </head>
     <body>
         <?php
         include 'pages/Header.php';
-        include 'pages/Menu.php';
+        ?>
+        <div id="content">
+        <?php
         if (isset($_GET['page']))
             $page = $_GET['page'];
         else
@@ -38,6 +41,9 @@
                 include 'pages/Home.php';
                 break;
         }
+        ?>
+        </div>
+        <?php
         include 'pages/Footer.php';
         ?>
 
