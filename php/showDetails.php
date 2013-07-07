@@ -24,7 +24,7 @@ while ($row = mysql_fetch_row($result)) {
         include 'Saalplan.php';
         include 'add2Warenkorb.php';
     }
-    if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true") {
+    if (isset($_SESSION['Admin']) && $_SESSION['Admin'] === "true" && isset($_GET['title'])) {
         echo '<form name="upload" action="" enctype="multipart/form-data" method="post">
                 <input type="file" name="uploadfile"/>
                 <input type="submit" value="upload"/>
